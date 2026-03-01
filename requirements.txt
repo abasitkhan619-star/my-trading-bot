@@ -1,6 +1,6 @@
 python-telegram-bot
 ccxt
 pandas
-pandas-ta==0.3.14b0
+https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip
 numpy==1.26.4
 flask
