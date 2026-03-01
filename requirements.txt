@@ -1,6 +1,10 @@
-python-telegram-bot
-ccxt
-pandas
-pandas-ta-classic==0.3.78
-numpy==1.26.4
-flask
+# Trading bot ke liye zaroori packages (Render pe build hone wale)
+
+python-telegram-bot     # Telegram bot ke liye
+ccxt                    # Crypto exchanges se data/trade ke liye
+pandas>=2.2             # Data handling (latest stable)
+numpy>=1.26             # Math/numerical operations (numpypy galat tha, numpy sahi hai)
+flask                   # Agar web server/API chahiye to
+
+# pandas-ta ki jagah maintained fork (original pandas-ta paid ho gaya hai kuch versions ke liye)
+pandas-ta-classic==0.3.78   # Latest as of Feb 27, 2026 – Python 3.9+ support karta hai, Render ke Python 3.12/3.14 pe chalega
